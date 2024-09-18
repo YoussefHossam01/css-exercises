@@ -11,3 +11,12 @@
     color: #000000;
     background-color: rgb(113, 235, 178);
 }
+
+.odd {
+    background-color: rgb(245, 151, 151);
+    font-family: Verdana, 'DejaVu Sans', sans-serif
+}
+
+.odd.cooler {
+    font-size:24px;
+}
