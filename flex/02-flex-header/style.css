@@ -1,6 +1,29 @@
+* ::before,
+* ::after,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+
+.left-links > ul,
+.right-links > ul {
+  display:flex;
+  flex: 1;
+  gap: 8px;
+}
+
+.logo {
+  flex:initial;
 }
 
 .logo {
